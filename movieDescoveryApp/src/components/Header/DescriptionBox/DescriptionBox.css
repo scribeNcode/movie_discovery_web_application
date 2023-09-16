@@ -1,0 +1,140 @@
+.DescriptionBox{
+    /* background: grey; */
+    height: 285px;
+    width: 404px;
+    margin-top: 158px;
+    margin-left: 98px;
+}
+
+.text_div{
+    width: 404px;
+    height: 112px;
+    color: white;
+    /* background-color: red; */
+}
+
+.ratingBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 184px;
+    height: 17px; 
+    /* background-color: brown; */
+    margin-left: 0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.IMBD_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101px;
+    height: 17px;
+    margin-left: 0;
+    
+}
+
+.IMBD_div img{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+.IMBD_logo{
+   
+    width: 35px;
+    height: 17px;
+}
+
+.IMBD_text{
+    /* width: auto ;
+    height:auto ; */
+    /* margin-bottom: 5rem; */
+    font-size: 12px;
+    /* line-height: 12px; */
+    color: white;
+    
+    font-weight: 400;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px, 16px, 6px, 16px;
+    gap: 8px;
+    margin-left: 0;
+    margin-top: 16px;
+
+}
+
+
+.rotten_tomatoes_div{
+    width: 49px;
+    height: 17px;
+    
+    margin-right: 0;
+}
+
+
+
+.DescriptionBox p{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.tomatoLogo{
+    background-image: url('./assets/Rotten\ Tomatoes.png');
+    background-size: cover;
+    width: 16px;
+height: 17px;
+
+}
+
+.jhonWickDescription{
+    width: 302px;
+    height: 72px;
+    margin-left: 0;
+}
+
+.jhonWickDescription p{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.DescriptionBox Button{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #BE123C;
+    color: #ffffff;
+    border: 0;
+    border-radius: 6px; */
+    /* padding: 10px 20px; */
+    /* font-size: 16px; */
+    /* padding: 6px, 16px, 6px, 16px; */
+    /* width: 169px;
+    height: 36px;
+    cursor: pointer; */
+    
+    width: 169px;
+    height: 36px;
+    border: 0;
+    border-radius: 6px;
+    padding: 6px, 16px, 6px, 16px;
+    background: #BE123C;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+

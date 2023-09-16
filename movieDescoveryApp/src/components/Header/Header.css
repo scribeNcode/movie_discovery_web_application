@@ -1,0 +1,6 @@
+.HeaderContainer{
+    background-image: url("./Images/Poster.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
