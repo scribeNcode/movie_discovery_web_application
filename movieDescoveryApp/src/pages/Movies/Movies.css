@@ -1,0 +1,181 @@
+.moviePageWrapper{
+    display: flex;
+    
+}
+
+.sideBar{
+    position: fixed;
+    background: grey;
+    height: 100vh;
+    width: 15vw;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.sideBarLogo{
+    margin-top: 1rem;
+    width: 186px;
+    height: 50px;
+    /* background: blue; */
+    background-image: url('./assets/Logo.png');
+    background-size: cover;
+} 
+
+.sideBarIcons{
+    display: flex;
+    flex-direction: column;
+    background: yellowgreen;
+    width: 90%;
+    gap: 3rem;
+}
+
+.mainContainer{
+    background: yellowgreen;
+    margin-top: 15px;
+    width: 80vw;
+    margin-right: 2vw;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    background: red;
+    margin-top: 10px;
+}
+
+.column1{
+    width: 70%;
+    background: green;
+}
+
+.column2{
+    width: 25%;
+}
+
+.contentDiv{
+    
+    display: flex;
+}
+
+.textWrapper{
+    width: 70%;
+}
+
+.genre{
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #B91C1C;
+}
+
+.textWrapper p{
+color: #404040;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.abtMovie p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 25px;
+}
+
+.MovieProducers{
+    height: 183px;
+    background: #404040;
+}
+
+.MovieProducers span{
+color: #333;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.MovieProducers p{
+    color: #BE123C;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-block;
+}
+
+
+.MovieProducers div{
+    margin-top: 36px;
+}
+
+.topRatedDiv{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topRatedDiv button{
+    
+    width: 253px;
+height: 55px;
+border-radius: 10px;
+background: #BE123C;
+color: #FFFFFF;
+border: 0;
+
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.topRatdText{
+    width: 232px;
+height: 30px;
+background: pink;
+/* top: 899px
+left: 552px */
+
+}
+
+
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 .div1{
+    height: 184px;
+    width: 100%;
+    
+    background: purple; 
+}
+
+.column2 .div2{
+    height: 184px;
+    width: 100%;
+    
+    background: greenyellow; 
+}
+
+.column2 button{
+width: 100%;
+
+}

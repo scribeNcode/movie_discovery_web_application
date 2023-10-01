@@ -1,21 +1,21 @@
 .featuredMovieWrapper{
-    width: 1308px;
-    background: green;
+    width: 90vw;
+    /* background: green; */
     /* margin-left: 34px;
     margin-right: 98px; */
 }
 
 .featuredMovieTitle{
-    width: 1244px;
+    width: 100%;
    margin-right: 0;
-    background: blue;
+    /* background: blue; */
 }
 
 .titleDiv{
-    width: 270px; 
+    width: 20%; 
     height: 47px; 
-    background: red;
-    margin-left: 0;
+    /* background: red; */
+    margin-left: 1.4rem;
   }
   
   .titleDiv p{
@@ -26,16 +26,16 @@
   
 
 .poster_div img{
-    max-width: 250px;
+    max-width: 100%;
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr) ;
-    gap: 103px 80px; 
+    gap: 2% 2%; 
     margin-right: 0;
     
-    width: 1240px;
+    width: 90vw;
     
     /* grid-template-rows: ; */
     
@@ -57,9 +57,7 @@
 }
 
 
-.imageWrapper{
-    
-}
+
 
 
 .posterCardRating{
