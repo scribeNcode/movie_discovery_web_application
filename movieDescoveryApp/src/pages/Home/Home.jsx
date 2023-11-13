@@ -6,9 +6,10 @@ function Home() {
   return (
     <div className="homePage_container">
         <div className="headerCardWrapper el1"><Header/></div>
-        <section className="FeaturedMovieWrapper el2">
-          <Card/>
-          </section>
+         <div className="FeaturedMovieWrapper el2">
+           <Card/>
+          </div> 
+          
     </div>
   )
 }

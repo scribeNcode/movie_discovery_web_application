@@ -5,8 +5,8 @@ import DescriptionBox from './DescriptionBox/DescriptionBox'
 function Header() {
   return (
     <div className='HeaderContainer'>
-        <Navbar/>
-        <DescriptionBox/>
+         <Navbar/>
+         <DescriptionBox/> 
     </div>
   )
 }

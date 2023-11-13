@@ -2,9 +2,17 @@
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
+  
+    
 }
 
-.App{
-    max-width:100vw;
-    
+body,html{
+    width: 100%;
+}
+
+
+.appWrapper{
+   width: 100vw;
+   /* background: blue; */
+   height: 100vh;
 }

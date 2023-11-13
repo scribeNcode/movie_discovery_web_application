@@ -6,7 +6,7 @@
     /* background: #9e3737; */
     /* display: flex;
     flex-direction: column; */
-    width: 100vw;
+    width: 100%;
 /* top: -443px;
 left: -721px; */
 
@@ -25,7 +25,9 @@ left: -721px; */
 .el2{
     /* background: grey; */
     margin-top: 70px;
-    width: 100%;
+    width: 90%;
+    display: flex;
+    
 
 
 /* top: 670px;

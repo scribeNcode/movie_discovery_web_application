@@ -8,10 +8,10 @@ function App() {
   
 
   return (
-    <div className=''>
+     <div className='appWrapper'>
 <Routes>
   <Route path='/' element={<Home/>} />
-  <Route path='/movies' element={<Movies/>}/>
+  <Route path='/movies/:id' element={<Movies/>}/>
 </Routes>
     </div>
   )
